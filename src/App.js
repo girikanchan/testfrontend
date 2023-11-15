@@ -9,7 +9,6 @@ function App() {
     <Form />
     <Footer />
   </section>
-  
 }
 
 export default App;
