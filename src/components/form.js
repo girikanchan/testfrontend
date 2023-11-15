@@ -2,8 +2,18 @@ import React from 'react';
 import './form.css'; // Assuming your stylesheet is in the same directory
 
 const Form = () => {
+  const backgroundImageStyle = {
+    backgroundImage: 'url("https://mindovermunch.com/wp-content/uploads/2017/07/food-vegetables-wood-knife.jpg")', // Replace with the path to your image
+    backgroundSize: 'cover', // Adjust the background size as needed
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height: '100vh',
+    opacity: '0.9',
+  };
   return (
+    <div className='body' style={backgroundImageStyle}>
     <div className="testimonials">
+      
       {/* CARD 1 START */}
       <div className="card">
         <div className="layer"></div>
@@ -52,6 +62,7 @@ const Form = () => {
         </div>
       </div>
       {/* CARD 2 END */}
+    </div>
     </div>
   );
 };
