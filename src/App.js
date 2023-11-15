@@ -1,11 +1,15 @@
-
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import './style.css';
+import Footer from './components/Footer';
+import Form from './components/form';
 function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to Restuarant</h1>
-    </div>
-  );
+  return <section>
+    <Navbar />
+    <Form />
+    <Footer />
+  </section>
+  
 }
 
 export default App;

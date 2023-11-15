@@ -1,0 +1,52 @@
+/* Footer.css */
+
+.sb_footer_below {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232222;  /* Set your desired background color */
+    padding: 20px 15px;  /* Adjust padding as needed */
+  }
+  
+  .sb_footer_below_left {
+    flex-grow: 1;
+    margin-left: 10%;
+  }
+  
+  .sb_footer_below_left p {
+    margin: 0;
+    color: #7f7b7b;  /* Set your desired text color */
+    font-size: 400;
+  }
+  
+  .sb_footer_below_right {
+    display: flex;
+    margin-right: 8%;
+  }
+  
+  .sb_footer_below_right i {
+    margin-right: 15px;  /* Adjust spacing between icons */
+    font-size: 20px;  /* Adjust icon size as needed */
+    color: #7f7b7b;  /* Set your desired icon color */
+
+  }
+  /* Media query for screens 768 pixels or less */
+@media screen and (max-width: 768px) {
+    .sb_footer_below {
+      flex-direction: column;
+      text-align: center; /* Optional: Center the content when stacked */
+    }
+  
+    .sb_footer_below_left,
+    .sb_footer_below_right {
+      width: 100%;
+      font-size: 10px;
+      margin-bottom: 10px; /* Optional: Add some spacing between the elements when stacked */
+    }
+  
+    .sb_footer_below_right i {
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
