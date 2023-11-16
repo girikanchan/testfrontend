@@ -1,0 +1,88 @@
+.newsEvent {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfcbcb;
+    border-radius: 8px;
+  }
+  
+  .News-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .News-heading h4 {
+    color: #333;
+  }
+  
+  .News-heading hr {
+    width: 50%;
+    border: 1px solid #333;
+    margin: 10px auto;
+  }
+  
+  .News-heading h1 {
+    color: #333;
+  }
+  
+  .News-heading p {
+    color: #666;
+  }
+  
+  .Newsdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Newscard {
+    max-width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .Newscard img {
+    max-width: 100%;
+    border-radius: 0px;
+  }
+  
+  .Newscard h3 {
+    color: #333;
+    text-align: justify;
+  }
+  
+  .Newscard h5 {
+    color: #666;
+    text-align: justify;
+  }
+  
+  .Newscard p {
+    color: #888;
+    text-align: justify;
+  }
+  
+  .Newsbutton {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Newsbutton button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a7af4c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Newsbutton button:hover {
+    background-color: #a09145;
+  }
+  

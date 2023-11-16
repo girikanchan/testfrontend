@@ -1,0 +1,44 @@
+.story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    /* Add any other styles for the story container */
+  }
+  
+  .story-heading {
+    text-align: center;
+  }
+  
+  .story-heading h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+    /* Add any other styles for the heading */
+  }
+  
+  #story-hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #333;
+  }
+  
+  .story-heading p {
+    color: #555;
+    font-size: 1.2em;
+    /* Add any other styles for the paragraph */
+  }
+  
+  .story-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #story-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Add any other styles for the image */
+  }
+  

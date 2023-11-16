@@ -12,7 +12,7 @@ const Form = () => {
   };
   return (
     <div className='body' style={backgroundImageStyle}>
-    <div className="testimonials">
+    <div className="querySub">
       
       {/* CARD 1 START */}
       <div className="card">

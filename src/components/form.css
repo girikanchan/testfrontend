@@ -1,22 +1,11 @@
-body{
-	margin:0;
-	padding:0;
-	width:100%;
-	height:80%;
-	font-family:sans-serif;
-	background: #ee0979;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6a6165 ,#bbab9f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-.testimonials{
-	margin:40px 40px;
+.querySub{
+  margin-top: 0px;
+  margin-bottom: 0px;
 	display:grid;
 	grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
 	grid-gap:20px;
 }
-.testimonials .card{
+.querySub .card{
 	position:relative;
 	width:450px;
   height: 600px;
@@ -28,7 +17,7 @@ background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, F
 	box-shadow:0 10px 40px rgba(0,0,0,.5);
 	overflow: hidden;
 }
-.testimonials .card .layer{
+.querySub .card .layer{
 	position: absolute;
 	top: calc(100% - 3px);
 	width:100%;
@@ -40,14 +29,14 @@ background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, F
 }
 
 
-.testimonials .card .cardheading {
+.querySub .card .cardheading {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 300;
     color: #fff;
     font-family: sans-serif;
   }
-  .testimonials .card .cardheading p{
+  .querySub .card .cardheading p{
     margin-top: 20px;
     font-size: 18px;
     font-weight: 300;
@@ -56,17 +45,17 @@ background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, F
   }
   
   
-  .testimonials .card .timming{
+  .querySub .card .timming{
     margin-top: 60px;
     color: #fff;
   }
-  .testimonials .card .nheading {
+  .querySub .card .nheading {
     margin-top: 50px;
     color: #fff;
   }
 
-  .testimonials .card .timming hr{
-    margin-left: 10px;
+  .querySub .card .timming hr{
+    margin-left: 15px;
     margin-top: 20px;
     width: 380px;
     height: 4px;
@@ -74,30 +63,30 @@ background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, F
     border: none;
   }
   
-  .testimonials .card .timming h3,
-  .testimonials .card .nheading h3 {
+  .querySub .card .timming h3,
+  .querySub .card .nheading h3 {
     margin-bottom: 10px;
     color: #fff;
   }
   
-  .testimonials .card .timming h4,
-  .testimonials .card .nheading p {
+  .querySub .card .timming h4,
+  .querySub .card .nheading p {
     margin: 10px 0;
     color: #fff;
   }
   
   
-  .testimonials .card .form {
+  .querySub .card .form {
     margin-top: 20px;
   }
   
-  .testimonials .card .form input {
-    width: 100%;
+  .querySub .card .form input {
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
   }
   
-  .testimonials .card .form button {
+  .querySub .card .form button {
     width: 100%;
     padding: 10px;
     background-color: rgb(176, 163, 42);
@@ -107,7 +96,7 @@ background: linear-gradient(to right, #3f3a3d, #6f6a66); /* W3C, IE 10+/ Edge, F
     transition: background-color 0.3s;
   }
   
-  .testimonials .card .form button:hover {
+  .querySub .card .form button:hover {
     background-color: rgb(239, 222, 160);
   }
   .cardf-button button{
