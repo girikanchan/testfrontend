@@ -4,7 +4,8 @@ import './testimonial.css';
 function TestimonialCard({ rating, quote, author }) {
   return (
     <div className='cardsTest'>
-      <p>{rating} rating star</p>
+      <p>{Array.from({ length: rating }, (_, index) => <span key={index}>⭐</span>)}</p>
+
       <h4>"A Great Find"</h4>
       <p>{quote}</p>
       <h5>{author}</h5>
