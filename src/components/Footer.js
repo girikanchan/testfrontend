@@ -16,7 +16,7 @@ function Footer() {
         <i className="fab fa-facebook-f" style={{ color: "#474d57" }}></i>
         <i className="fab fa-twitter" style={{ color: "#474d57" }}></i>
         <i className="fab fa-google-plus-g" style={{ color: "#474d57" }}></i>
-        <i className="fas fa-wifi" style={{ color: "#474d57" }}></i>
+        <i className="fas fa-wifi" style={{ color: "#474d57", transform: "rotate(45deg)" }}></i>
       </div>
     </div>
   );
