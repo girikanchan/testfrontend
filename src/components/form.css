@@ -10,7 +10,7 @@
 	width:450px;
   height: 600px;
 	margin: 50px auto;
-	background:#333;
+	background:#1f1e1e;
 	padding:20px;
 	box-sizing: border-box;
 	text-align:center;
@@ -23,7 +23,7 @@
 	width:100%;
 	height:100%;
 	left:0;
-	background:linear-gradient(#03a9f4, #e81dd3);
+	background:linear-gradient(#171717, #161516);
 	z-index:1;
 	transition:0.5s;
 }
@@ -31,17 +31,16 @@
 
 .querySub .card .cardheading {
     margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 20px;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'PT Serif Caption', serif;
   }
   .querySub .card .cardheading p{
     margin-top: 20px;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 100;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   
@@ -69,31 +68,43 @@
     color: #fff;
   }
   
-  .querySub .card .timming h4,
+  .querySub .card .timming h4{
+    margin: 10px 0;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
   .querySub .card .nheading p {
     margin: 10px 0;
     color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
   }
   
-  
-  .querySub .card .form {
+.form {
     margin-top: 20px;
+    color: black;
   }
   
-  .querySub .card .form input {
+.form input {
     width: 90%;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: black;
   }
+  .form input::placeholder {
+    color: white;
+}
   
   .querySub .card .form button {
     width: 100%;
     padding: 10px;
-    background-color: rgb(176, 163, 42);
+    background-color: rgb(229, 213, 70);
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 0px;
   }
   
   .querySub .card .form button:hover {
@@ -102,19 +113,21 @@
   .cardf-button button{
     width: 60%;
     padding: 10px;
-    background-color: rgb(176, 163, 42);
+    background-color: rgb(200, 185, 52);
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s; 
     margin-top: 20px; 
+    border-radius: 0px;
   }
   .cardsf-button button{
     width: auto;
     padding: 10px;
-    background-color: rgb(176, 163, 42);
+    background-color: rgb(200, 185, 52);
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;  
+    border-radius: 0px;
   }

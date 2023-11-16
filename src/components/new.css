@@ -2,7 +2,7 @@
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #cfcbcb;
+    background-color: #f9f7f7;
     border-radius: 8px;
   }
   
@@ -12,33 +12,40 @@
   }
   
   .News-heading h4 {
-    color: #333;
+    color: #a4a3a3;
   }
   
   .News-heading hr {
-    width: 50%;
-    border: 1px solid #333;
-    margin: 10px auto;
+    border: 1px solid #c3b045;
+    width: 2%;
+    margin: 0 auto;
   }
   
-  .News-heading h1 {
-    color: #333;
+  .News-heading h2 {
+    margin-top: 3%;
+    color: #000000;
+    font-size: 54px;
+    font-weight: 800;
   }
   
   .News-heading p {
-    color: #666;
+    color: #5a5757;
+    font-size: 24px;
   }
   
   .Newsdisplay {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   
   .Newscard {
     max-width: 300px;
-    margin: 20px;
-    border: 1px solid #ddd;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 1px solid #fffdfd;
     border-radius: 0px;
     background-color: #fff;
     text-align: center;
@@ -54,16 +61,19 @@
   .Newscard h3 {
     color: #333;
     text-align: justify;
+    margin-left: 15px;
   }
   
   .Newscard h5 {
-    color: #666;
+    color: #ca9b3d;
     text-align: justify;
+    margin-left: 15px;
   }
   
   .Newscard p {
-    color: #888;
+    color: #7c7b77;
     text-align: justify;
+    margin-left: 15px;
   }
   
   .Newsbutton {
@@ -74,9 +84,10 @@
   .Newsbutton button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #a7af4c;
+    background-color: #c5ba44;
     color: #fff;
     border: none;
+    border-radius: 0px;
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;

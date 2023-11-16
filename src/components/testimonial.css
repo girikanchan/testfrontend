@@ -13,18 +13,21 @@
   }
   
   .testimonial-container h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
+    color: #7d7d7d;
   }
   
   .testimonial-container hr {
     border: 1px solid #bdab48;
-    width: 10%;
+    width: 5%;
     margin: 0 auto;
   }
   
   .testimonial-container p {
-    font-size: 16px;
+    font-size: 46px;
+    color: #080808;
+    font-family: 'Libre Baskerville', serif;
   }
   
   .testimonial-cards {
@@ -46,17 +49,21 @@
   }
   
   .cardsTest p {
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #848484;
+
   }
   
   .cardsTest h4 {
-    color: #333;
-    font-size: 18px;
+    color: #050505;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
   }
   
   .cardsTest h5 {
-    color: #666;
-    font-size: 16px;
+    color: #1a1a1a;
+    font-size: 14px;
     margin-top: 10px;
   }
   

@@ -32,7 +32,7 @@ function News() {
       <header className='News-heading'>
         <h4>DON'T MISS</h4>
         <hr />
-        <h1>Our News And Events</h1>
+        <h2>Our News And Events</h2>
         <p>News of our restaurant</p>
       </header>
       <section className='Newsdisplay'>
