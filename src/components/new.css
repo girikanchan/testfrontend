@@ -97,3 +97,21 @@
     background-color: #a09145;
   }
   
+
+@media screen and (max-width: 768px) {
+  .Newsdisplay {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Newscard {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .Newscard h3,
+  .Newscard h5,
+  .Newscard p {
+    margin-left: 0;
+  }
+}

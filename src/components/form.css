@@ -131,3 +131,38 @@
     transition: background-color 0.3s;  
     border-radius: 0px;
   }
+  @media screen and (max-width: 768px) {
+    .querySub {
+      grid-template-columns: 1fr; /* Change the grid to a single column on smaller screens */
+    }
+  
+    .querySub .card {
+      width: 100%; /* Cards take up full width on smaller screens */
+      margin: 20px auto; /* Adjust margin for better spacing */
+    }
+  
+    .querySub .card .timming hr {
+      width: 100%; /* Make the horizontal rule span the full width */
+    }
+  
+    .querySub .card .cardheading {
+      font-size: 18px; /* Adjust heading font size for smaller screens */
+    }
+  
+    .querySub .card .cardheading p {
+      font-size: 16px; /* Adjust paragraph font size for smaller screens */
+    }
+  
+    .querySub .card .timming {
+      margin-top: 40px; /* Adjust spacing for the timing section */
+    }
+  
+    .form input {
+      width: 100%; /* Make input fields span the full width */
+    }
+  
+    .querySub .card .form button {
+      width: 100%; /* Make the button span the full width */
+    }
+  }
+  

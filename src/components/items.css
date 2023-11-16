@@ -52,3 +52,23 @@
     background-color: #c2b647;
   }
   
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 40px;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 15px;
+  }
+}
